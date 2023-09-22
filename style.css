@@ -1,10 +1,10 @@
-@mixin glassmorphism() {
+/* @mixin glassmorphism() {
      background: rgba(255,255,255,0.05);
     backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255,255,255,0.2);
     border-left: 1px solid rgba(255,255,255,0.2);
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
-}
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2); */
+/* } */
 html,
 body {
   height: 100%;
@@ -34,11 +34,11 @@ body {
 	max-width: 330px;
 	margin: auto;
   
-  @include glassmorphism();
+  /* @include glassmorphism(); */
   border-radius: 3px;
   
   h1 {
-    @include glassmorphism();
+    /* @include glassmorphism(); */
     margin-top: 0px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -51,7 +51,7 @@ body {
     padding:15px;
     
     .btn {
-      @include glassmorphism;
+      /* @include glassmorphism; */
       color:#fff;
       
       &:hover, &:focus {
